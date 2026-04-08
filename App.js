@@ -36,6 +36,13 @@ const parent= React.createElement(
     )
 );
 
+//jsx
+const jsxheading= <h1 id="heading"> namaste react using jsx</h1>
+//jsx is not html in js
+//its html like or xml-like syntax
+//jsx is just a syntax
+
+
 // //React.createElement(
 // 1st arg: what type of tag,
 // 2nd arg:Object,
