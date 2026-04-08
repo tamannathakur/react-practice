@@ -52,3 +52,20 @@ const heading=React.createElement("h1",{id:"heading"},"namaste react using jsx")
 const jsxheading= <h1 id="heading"> namaste react using jsx</h1>
 
 both create react element first we are creating react element using react secondly we are creating react element using jsx
+
+es6 (ecma script) is what the javascript engines understand the browser understands
+
+jsx is transpiled before it reaches the js engine (who transpiles? parcel ka babel package does)
+
+jsx is converted to react.createlement then reactelement-jsobject then html element when rendering
+
+babel is a javascript compiler
+
+attributes in jsx is camelcase ie className , tabIndex
+
+const jsxheading= <h1 id="heading" className="head"> namaste react using jsx</h1>
+
+to wrap it in multiple lines cover it with ()
+ie: 
+const jsxheading= (<h1 id="heading" className="head"> namaste react 
+using jsx</h1>);
