@@ -69,3 +69,41 @@ to wrap it in multiple lines cover it with ()
 ie: 
 const jsxheading= (<h1 id="heading" className="head"> namaste react 
 using jsx</h1>);
+
+React Component
+Class Based component -old uses js classes
+functional component - new uses js functions
+
+a function that returns a jsx code is a functional component
+
+const HeadingComponent=()=>{
+    return  <h1>Namaste react functional component</h1>
+}
+ functional components start with capital
+
+ const fn=()=> true;
+
+ function fn returns true same as
+ const fn=()=>{return true;}
+
+ we cannot render a functional component directly
+
+ if i want to render HeadingComponent i would do:
+
+ root.render(<HeadingComponent />);
+
+ component composition - when you put one component in another
+
+ 
+const Title=()=>(
+    <h1 className="head" tabIndex="5">
+        Namaste react
+    </h1>
+);
+//React Functional component
+const HeadingComponent=()=>{
+      <div id="container">
+        <Title/>
+       <h1>Namaste react functional component</h1>
+        </div>
+};

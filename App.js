@@ -43,6 +43,23 @@ const jsxheading= <h1 id="heading" className="head"> namaste react using jsx</h1
 //jsx is just a syntax
 //its not class in jsx its classname
 
+
+const Title=()=>(
+    <h1 className="head" tabIndex="5">
+        Namaste react
+    </h1>
+);
+//React Functional component
+const HeadingComponent=()=>{
+      <div id="container">
+        <Title/>
+       <h1>Namaste react functional component</h1>
+        </div>
+};
+
+// this title ka full functional code will get replaced in the div so now if we render headingcomponent title gets rendered asw
+
+//functional components start with capital
 // //React.createElement(
 // 1st arg: what type of tag,
 // 2nd arg:Object,
