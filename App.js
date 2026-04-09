@@ -49,14 +49,25 @@ const Title=()=>(
         Namaste react
     </h1>
 );
+
+//title is just a normal js element even tht you can include in the component and will render smoothly it is component composition
+const title=(
+    <h1 className="head">
+        namaste
+    </h1>
+);
+
 //React Functional component
+
 const HeadingComponent=()=>{
       <div id="container">
         <Title/>
+        {title}
        <h1>Namaste react functional component</h1>
         </div>
 };
 
+//put any js code in curly braces and seamlessly it would get rendered
 // this title ka full functional code will get replaced in the div so now if we render headingcomponent title gets rendered asw
 
 //functional components start with capital

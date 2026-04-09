@@ -107,3 +107,15 @@ const HeadingComponent=()=>{
        <h1>Namaste react functional component</h1>
         </div>
 };
+
+you can inject any time of js inside jsx and it will convert it into html
+jsx ke andar you can write js console log , mathematical operation all js would work 
+
+jsx takes care of injected data/hackers 
+jsx would sanitize data and then render
+
+<Title/> == <Title></Title>=={Title()}
+
+we can call it like a function aswell
+
+all are same
